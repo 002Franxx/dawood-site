@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Name Slips for Kids</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      background-color: #fff8f0;
+      color: #333;
+    }
+    header {
+      background-color: #03fcc2;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 1.5rem;
+    }
+    .container {
+      padding: 1rem;
+    }
+    .category-select {
+      margin: 1rem 0;
+      width: 100%;
+      font-size: 1rem;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      border: 1px solid #ccc;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    .product-card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 0.5rem;
+      text-align: center;
+    }
+    .product-card img {
+      width: 70%;
+      border-radius: 0.5rem;
+    }
+    .buy-button {
+      background-color: #afeddf;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      margin-top: 0.5rem;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+    .social-links a {
+      color: #35574f;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      padding: 1rem;
+      background-color: #03fcc2;
+      color: #555;
+    }
+
+    
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="nameslips/logo-Photoroom.png" alt="">
+    
+  </header>
+  <div class="container">
+    <label for="category">Choose Theme:</label>
+    <select id="category" class="category-select">
+      <option value="all">All</option>
+      <option value="car">Car</option>
+      <option value="flower">Flower</option>
+      <option value="animal">Unicorn</option>
+      <option value="football">Football</option>
+      <option value="spiderman">Spiderman</option>
+    </select>
+
+    <div class="product-grid">
+      <div class="product-card" data-category="car">
+        <img src="nameslips/car.jpeg" alt="Car Theme Name Slip">
+        <p>Car Theme</p>
+        <button class="buy-button" data-link="https://www.instagram.com/direct/t/17844843675401094">Buy</button>
+      </div>
+      <div class="product-card" data-category="car">
+        <img src="nameslips/car2.jpeg" alt="Car Theme Name Slip">
+        <p>Car Theme</p>
+        <button class="buy-button" data-link="https://www.instagram.com/direct/t/17844843675401094">Buy</button>
+      </div>
+      <div class="product-card" data-category="car">
+        <img src="nameslips/car3.jpeg" alt="Car Theme Name Slip">
+        <p>Car Theme</p>
+        <button class="buy-button" data-link="https://www.instagram.com/direct/t/17844843675401094">Buy</button>
+      </div>
+      <div class="product-card" data-category="car">
+        <img src="nameslips/car4.jpeg" alt="Car Theme Name Slip">
+        <p>Car Theme</p>
+        <button class="buy-button" data-link="https://www.instagram.com/direct/t/17844843675401094">Buy</button>
+      </div>
+
+<!-- -----------------CAR-NAME-SLIP--------------------- -->
+
+
+      <div class="product-card" data-category="flower">
+        <img src="nameslips/flower.jpeg" alt="Flower Theme Name Slip">
+        <p>Flower Theme</p>
+        <button class="buy-button" data-link="https://www.instagram.com/direct/t/17844843675401094">Buy</button>
+      </div>  
+      <div class="product-card" data-category="flower">
+        <img src="nameslips/flower3.jpeg" alt="Flower Theme Name Slip">
+        <p>Flower Theme</p>
+        <button class="buy-button" data-link="https://www.instagram.com/direct/t/17844843675401094">Buy</button>
+      </div>
+
+<!-- ---------------------FLOWER-NAME-SLIP------------------------- -->
+      
+
+      <div class="product-card" data-category="animal">
+        <img src="nameslips/unicorn.jpeg" alt="Unicorn Theme Name Slip">
+        <p>Unicorn Theme</p>
+        <button class="buy-button" data-link="https://www.instagram.com/direct/t/17844843675401094">Buy</button>
+      </div>
+      <div class="product-card" data-category="animal">
+        <img src="nameslips/animal2.jpeg" alt="Unicorn Theme Name Slip">
+        <p>Unicorn Theme</p>
+        <button class="buy-button" data-link="https://www.instagram.com/direct/t/17844843675401094">Buy</button>
+      </div>
+      <div class="product-card" data-category="animal">
+        <img src="nameslips/animal5.jpeg" alt="Unicorn Theme Name Slip">
+        <p>Unicorn Theme</p>
+        <button class="buy-button" data-link="https://www.instagram.com/direct/t/17844843675401094">Buy</button>
+      </div>
+      <div class="product-card" data-category="animal">
+        <img src="nameslips/animal15.jpeg" alt="Unicorn Theme Name Slip">
+        <p>Unicorn Theme</p>
+        <button class="buy-button" data-link="https://www.instagram.com/direct/t/17844843675401094">Buy</button>
+      </div>
+
+<!-- ---------------------------UNICORN-NAME-SLIP------------------------------ -->
+
+      
+      <div class="product-card" data-category="football">
+        <img src="nameslips/football.jpeg" alt="Unicorn Theme Name Slip">
+        <p>Unicorn Theme</p>
+        <button class="buy-button" data-link="https://www.instagram.com/direct/t/17844843675401094">Buy</button>
+      </div>
+      <div class="product-card" data-category="football">
+        <img src="nameslips/football2.jpeg" alt="Unicorn Theme Name Slip">
+        <p>Unicorn Theme</p>
+        <button class="buy-button" data-link="https://www.instagram.com/direct/t/17844843675401094">Buy</button>
+      </div>
+      <div class="product-card" data-category="football">
+        <img src="nameslips/football3.jpeg" alt="Unicorn Theme Name Slip">
+        <p>Unicorn Theme</p>
+        <button class="buy-button" data-link="https://www.instagram.com/direct/t/17844843675401094">Buy</button>
+      </div>
+      
+
+<!-- -----------------------------FOOTBALL-NAME-SLIP------------------- -->
+
+
+      <div class="product-card" data-category="spiderman">
+        <img src="nameslips/spiderman1.jpeg" alt="Unicorn Theme Name Slip">
+        <p>Unicorn Theme</p>
+        <button class="buy-button" data-link="https://www.instagram.com/direct/t/17844843675401094">Buy</button>
+      </div>
+      <div class="product-card" data-category="spiderman">
+        <img src="nameslips/spiderman2.jpeg" alt="Unicorn Theme Name Slip">
+        <p>Unicorn Theme</p>
+        <button class="buy-button" data-link="https://www.instagram.com/direct/t/17844843675401094">Buy</button>
+      </div>
+      <div class="product-card" data-category="spiderman">
+        <img src="nameslips/spiderman3.jpeg" alt="Unicorn Theme Name Slip">
+        <p>Unicorn Theme</p>
+        <button class="buy-button" data-link="https://www.instagram.com/direct/t/17844843675401094">Buy</button>
+      </div>
+
+<!-- -----------------------------------------SPIDERMAN-NAME-SLIP------------------- -->
+
+    </div>
+    <div style="color: black;" class="social-links">
+      <h2>All Kerala Delivery Available <img src="nameslips/fast-delivery.png" alt="" style="width: 50px; height: 50px;"></h2>
+      
+    </div>
+    <div class="social-links">
+      <a href="https://wa.me/919495783646" target="_blank">WhatsApp</a>
+      <a href="https://www.instagram.com/direct/t/17844843675401094" target="_blank">Instagram</a>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 Hadaf Designs. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("category").addEventListener("change", function () {
+      const selected = this.value;
+      const cards = document.querySelectorAll(".product-card");
+      cards.forEach(card => {
+        card.style.display = selected === 'all' || card.dataset.category === selected ? 'block' : 'none';
+      });
+    });
+
+    document.querySelectorAll(".buy-button").forEach(button => {
+      button.addEventListener("click", () => {
+        const link = button.getAttribute("data-link");
+        window.location.href = link;
+      });
+    });
+  </script>
+</body>
+</html>
